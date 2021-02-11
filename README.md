@@ -12,11 +12,11 @@
 
 ### На пути к рекоду
 
-<img src="https://github.com/exynil/files/blob/master/classic-snake-ai/screenshots/screenshot-0.jpg">
+<img src="https://github.com/exynil/files/blob/master/classic-snake-ai/screenshots/1.jpg">
 
 ### Видимые секторы змейки
 
-<img src="https://github.com/exynil/files/blob/master/classic-snake-ai/screenshots/screenshot-1.jpg">
+<img src="https://github.com/exynil/files/blob/master/classic-snake-ai/screenshots/2.jpg">
 
 ## Управление
 
