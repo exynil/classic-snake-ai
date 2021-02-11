@@ -39,15 +39,15 @@
 ## Запуск
 
 ~~~~
-git clone https://github.com/exynil/ClassicSnakeAI.git
+git clone https://github.com/exynil/classic-snake-ai.git
 ~~~~
 
 ~~~~
-virtualenv ClassicSnakeAI
+virtualenv classic-snake-ai
 ~~~~
 
 ~~~~
-cd ClassicSnakeAI
+cd classic-snake-ai
 ~~~~
 
 ~~~~
