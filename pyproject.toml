@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "classic-snake-ai"
+version = "0.1.0"
+description = ""
+authors = ["Maxim Kim <exynil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+deap = "^1.4.1"
+numpy = "^2.1.1"
+pygame = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
