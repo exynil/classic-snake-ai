@@ -12,9 +12,9 @@ class Snake:
         self.field = field
         self.path = []
         self.nn = NeuralNetwork(24, 18, 12, 4)
-        self.color = pygame.Color('#a3be8c')
-        self.path_color = pygame.Color('#afb1b3')
-        self.vector_color = pygame.Color('#9d7d99')
+        self.color = pygame.Color('#50FA7B')
+        self.path_color = pygame.Color('#BD93F9')
+        self.vector_color = pygame.Color('#BD93F9')
         self.size = 40
         self.high_score = 0
         self.length = None

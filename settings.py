@@ -17,5 +17,7 @@ settings = {
     'max_generations':      9999,
     'hall_of_fame_size':    15,
     'random_seed':          42,
-    'checkpoint':           2201,
+    'checkpoint':           1828,
 }
+
+# 1828

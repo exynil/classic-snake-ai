@@ -105,7 +105,7 @@ class Field:
 
     def draw(self):
         if settings['animation']:
-            self.sc.fill(pygame.Color('#383f4e'))
+            self.sc.fill(pygame.Color('#282A36'))
             if settings['grid']:
                 self.draw_grid()
             if settings['info']:
@@ -124,9 +124,9 @@ class Field:
 
     def draw_grid(self):
         for x in range(0, self.width + self.snake.size, self.snake.size):
-            pygame.draw.aaline(self.sc, '#4c566b', [x, 0], [x, self.height])
+            pygame.draw.aaline(self.sc, '#44475a', [x, 0], [x, self.height])
         for y in range(0, self.height + self.snake.size, self.snake.size):
-            pygame.draw.aaline(self.sc, '#4c566b', [0, y], [self.width, y])
+            pygame.draw.aaline(self.sc, '#44475a', [0, y], [self.width, y])
 
     def draw_info(self):
         self.draw_text(20, 20, f'HIGH SCORE: {self.snake.high_score}')
@@ -157,4 +157,4 @@ class Field:
 
     def draw_text(self, x, y, text):
         font = pygame.font.Font('./fonts/TerminusTTF.ttf', 14)
-        self.sc.blit(font.render(text, True, pygame.Color('#dfc185')), (x, y))
+        self.sc.blit(font.render(text, True, pygame.Color('#50FA7B')), (x, y))

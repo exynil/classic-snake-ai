@@ -7,7 +7,7 @@ class Apple:
         self.sc = sc
         self.field = field
         self.pos = None
-        self.color = pygame.Color('#bf616a')
+        self.color = pygame.Color('#BD93F9')
         self.size = 40
 
     def reset(self):
